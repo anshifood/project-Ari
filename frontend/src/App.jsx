@@ -6,7 +6,7 @@ function App() {
     <>
       <h1>Welcome to OurProject1</h1>
       <p>
-        This is our project.By priyanshi
+        This is our project - By Aradhya n priyanshi.
       </p>
     </>
   )
