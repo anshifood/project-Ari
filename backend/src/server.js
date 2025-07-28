@@ -73,7 +73,7 @@ app.get('/api/amazon-search/:keyword', async (req, res) => {
         await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36');
         
         // Navigate to Amazon search
-        const searchUrl = `https://www.amazon.com/s?k=${encodeURIComponent(keyword)}`;
+        const searchUrl = `https://www.amazon.in/s?k=${encodeURIComponent(keyword)}`;
         await page.goto(searchUrl, { waitUntil: 'networkidle2' });
         
         // Wait for search results to load
